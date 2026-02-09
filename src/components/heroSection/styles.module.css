@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
   max-width: 1920px;
+  margin: 0 auto;
 }
 .inputContainer {
   display: flex;
@@ -26,5 +27,22 @@
   }
   .bg {
     display: none;
+  }
+}
+@media (max-width: 1150px) {
+  .container {
+    max-width: 778px;
+    padding: 40px 10px 40px;
+  }
+  .inputContainer {
+    max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 425px;
+  }
+  .inputContainer {
+    max-width: 400px;
   }
 }
