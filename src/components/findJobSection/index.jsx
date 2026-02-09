@@ -6,7 +6,7 @@ import sony from "/src/assets/icons/sony.svg";
 import cocacola from "/src/assets/icons/cocacola.svg";
 
 function FindJobSection() {
-  const companyIcons = [{id: 1, src: , name: "disney"];
+  const companyIcons = [{ id: 1, src: disney, name: "disney" }];
   return <section></section>;
 }
 export default FindJobSection;
