@@ -8,27 +8,32 @@
   align-items: center;
   justify-content: start;
   padding: 39px 128px 34px 31px;
-  gap: 301px;
   position: relative;
   max-width: 918px;
   max-height: 105px;
+  width: 100%;
+  width: 100vw;
 }
 .container {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 13px;
+  width: 100%;
 }
 .input {
   border: none;
-  width: 290px;
+  max-width: 290px;
   height: 36px;
-  padding: 5px;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
 }
 .input::placeholder {
   font-weight: 400;
   font-size: 18px;
   color: #000;
+  width: 100%;
 }
 
 .span {
@@ -37,5 +42,5 @@
   height: 0px;
   transform: rotate(-90deg);
   position: absolute;
-  left: 422px;
+  left: 350px;
 }
