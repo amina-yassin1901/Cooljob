@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 48px;
+}
+.item {
+  font-weight: 600;
+  font-size: 22px;
+  color: #d0e8ff;
+}

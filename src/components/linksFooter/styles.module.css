@@ -1,0 +1,31 @@
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.line::before {
+  content: "";
+  top: 0;
+  left: 0;
+  border: 2px solid #465461;
+  width: 1720px;
+  height: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: start;
+}
+.list {
+  display: flex;
+  gap: 36px;
+  align-items: end;
+  justify-content: end;
+  margin-top: 10px;
+  margin-top: 84px;
+}
+.logo {
+  margin-top: 54px;
+}
