@@ -13,3 +13,14 @@
   text-align: center;
   margin-top: 91px;
 }
+@media (max-width: 768px) {
+  .button {
+    padding: 50px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondButton {
+    padding: 20px 30px;
+  }
+}

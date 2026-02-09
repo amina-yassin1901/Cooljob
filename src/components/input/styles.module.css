@@ -44,3 +44,21 @@
   position: absolute;
   left: 350px;
 }
+@media (max-width: 1150px) {
+  .mainContainer {
+    flex-direction: column;
+    padding: 10px 40px 10px 10px;
+    max-width: 500px;
+    justify-content: start;
+    min-height: 105px;
+    justify-content: space-between;
+  }
+  .span {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    max-width: 300px;
+  }
+}

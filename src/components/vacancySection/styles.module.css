@@ -1,6 +1,7 @@
 .container {
   padding: 67px 100px 151px 100px;
   max-width: 1920px;
+  margin: 0 auto;
 }
 .text {
   margin-top: 11px;
@@ -12,4 +13,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 80px 20px 120px;
+  }
+}
+@media (max-width: 1150px) {
+  .container {
+    max-width: 778px;
+    padding: 40px 10px 40px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 425px;
+  }
 }

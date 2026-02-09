@@ -1,13 +1,14 @@
 .list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  column-gap: 93px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 90px;
   row-gap: 27px;
   margin-top: 43px;
   max-width: 1920px;
+  justify-content: center;
+  align-items: center;
 }
 .item {
-  padding: 61px 170px 68px 29px;
   box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
   font-size: 16px;
@@ -17,7 +18,12 @@
   justify-content: center;
   align-items: start;
   max-width: 270px;
-  max-height: 198px;
+  min-height: 198px;
+  padding-left: 29px;
+  padding-top: 61px;
+  padding-bottom: 49px;
+  padding-right: 169px;
+  width: 100%;
 }
 .lastItem {
   padding: 61px 170px 68px 29px;
@@ -31,4 +37,9 @@
   margin-bottom: 20px;
   max-width: 30px;
   height: auto;
+}
+@media (max-width: 1440px) {
+  .list {
+    max-width: 1440px;
+  }
 }
