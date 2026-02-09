@@ -13,3 +13,9 @@
   align-items: center;
   width: 100%;
 }
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 80px 20px 120px;
+  }
+}

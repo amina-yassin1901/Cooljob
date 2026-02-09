@@ -9,8 +9,9 @@
   top: 0;
   left: 0;
   border: 2px solid #465461;
-  width: 1720px;
+  max-width: 1720px;
   height: 0px;
+  width: 100%;
 }
 .container {
   display: flex;
@@ -28,4 +29,6 @@
 }
 .logo {
   margin-top: 54px;
+}
+@media (max-width: 1440px) {
 }

@@ -3,3 +3,9 @@
   padding: 56px 100px 53px 100px;
   max-width: 1920px;
 }
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 80px 20px 120px;
+  }
+}
