@@ -2,6 +2,7 @@ import Header from "./components/header";
 import Hero from "./components/heroSection";
 import FindJobSection from "./components/findJobSection";
 import Category from "./components/categorySection";
+import Vacancy from "./components/vacancySection";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <FindJobSection />
       <Category />
+      <Vacancy />
     </div>
   );
 }
