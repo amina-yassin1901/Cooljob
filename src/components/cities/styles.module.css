@@ -10,6 +10,14 @@
   font-size: 22px;
   color: #d0e8ff;
 }
+@media (max-width: 1440px) {
+  .list {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+
 @media (max-width: 1150px) {
   .list {
     flex-wrap: wrap;
