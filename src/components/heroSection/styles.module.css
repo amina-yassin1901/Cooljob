@@ -1,0 +1,18 @@
+.container {
+  background-color: #cde7ff;
+  padding: 131px 100px 295px 100px;
+  position: relative;
+  overflow: hidden;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 5px 9px 0 rgba(0, 0, 0, 0.35);
+  max-width: 1125px;
+  max-height: 105px;
+}
+.bg {
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
