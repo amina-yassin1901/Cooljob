@@ -6,7 +6,6 @@ html {
   color: rgba(141, 141, 141, 0.8);
 }
 body {
-  max-width: 1920px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -24,4 +23,6 @@ h4 {
 }
 a {
   color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 1440px) {
 }
