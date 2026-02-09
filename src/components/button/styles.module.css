@@ -1,0 +1,11 @@
+.button {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  padding: 41px 70px;
+  background-color: #274059;
+  z-index: 3;
+  max-height: 105px;
+}
+.secondButton {
+}

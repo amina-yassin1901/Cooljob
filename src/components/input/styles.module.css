@@ -1,0 +1,41 @@
+.icon {
+  width: 28px;
+  height: auto;
+}
+.mainContainer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 39px 128px 34px 31px;
+  gap: 301px;
+  position: relative;
+  max-width: 918px;
+  max-height: 105px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 13px;
+}
+.input {
+  border: none;
+  width: 290px;
+  height: 36px;
+  padding: 5px;
+}
+.input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.span {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 20px;
+  height: 0px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 422px;
+}
